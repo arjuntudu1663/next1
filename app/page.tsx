@@ -2,25 +2,24 @@
 import { AiOutlineBulb  } from "react-icons/ai";
 import { CiHeart } from "react-icons/ci";
 import 'bootstrap/dist/css/bootstrap.css';
-import { Button ,Row,Col ,Nav ,NavDropdown } from "react-bootstrap";
+import { Button ,Row,Col  } from "react-bootstrap";
 import { CiShoppingCart } from "react-icons/ci";
 import { FaCircle } from "react-icons/fa6";
 import { IoIosArrowDown } from "react-icons/io";
 import Image from 'next/image'
-import { CiSearch } from "react-icons/ci";
+
 import { TfiRulerAlt } from "react-icons/tfi";
 import { LuCircleOff } from "react-icons/lu";
 import { FiMinus  } from "react-icons/fi";
 import { FaPlus } from "react-icons/fa6";
 import { FaWineGlass } from "react-icons/fa";
-import { MdOutlineScreenshotMonitor } from "react-icons/md";
 import { CiTwitter } from "react-icons/ci";
 import { CiInstagram } from "react-icons/ci";
 import { CiLinkedin } from "react-icons/ci";
-import { useState } from "react";
+
 import { FaCarSide } from "react-icons/fa6";
 import { MdOutlineMonitor } from "react-icons/md";
-import { useRef } from "react";
+
 import myImage from '../public/img1.png';
 
 
