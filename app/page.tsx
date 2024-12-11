@@ -6,6 +6,7 @@ import { Button ,Row,Col ,Nav ,NavDropdown } from "react-bootstrap";
 import { CiShoppingCart } from "react-icons/ci";
 import { FaCircle } from "react-icons/fa6";
 import { IoIosArrowDown } from "react-icons/io";
+import Image from 'next/image'
 import { CiSearch } from "react-icons/ci";
 import { TfiRulerAlt } from "react-icons/tfi";
 import { LuCircleOff } from "react-icons/lu";
@@ -19,34 +20,14 @@ import { CiLinkedin } from "react-icons/ci";
 import { useState } from "react";
 import { FaCarSide } from "react-icons/fa6";
 import { MdOutlineMonitor } from "react-icons/md";
-import {Image} from "react-bootstrap";
 import { useRef } from "react";
+import myImage from '../public/img1.png';
 
 
 
 
 
 export default function Home() {  
-
-  
-
-
-
-  
-
-
-
-
-
-   
-
-
-   
-   
-
-
-  
-  
 
   return (
     <div className="" style={{paddingLeft:"15px",paddingRight:"15px",marginBottom:"50%"}}>
@@ -55,7 +36,7 @@ export default function Home() {
                   
                 <div  className="changWidthLogo" >
                 
-                  <img src="/logo1.png" style={{objectFit:"cover",width:"100%",height:"100%"}} />
+                  <Image src = {myImage} alt="wdawdawdaw" height={500} width={500} />
                
                 </div>
 
@@ -119,7 +100,7 @@ export default function Home() {
         <Row style={{width:"100%",padding:"15px"}} >
              
              <Col lg = {6}>
-                <img src="/img1.png"style={{width:"100%",height:"550px"}}/>
+             <Image src = {myImage} alt="wdawdawdaw" height={500} width={500} />
              </Col>
 
              <Col lg = {6}> 
@@ -250,7 +231,7 @@ export default function Home() {
 
                       </div>
 
-                    <img  src="/img2.png" style={{height:"380px",width:"300px",margin:"15px"}} /> 
+                      <Image src = {myImage} alt="wdawdawdaw" height={500} width={500} />
                     </div>
 
                   <div style={{width:"100%",display:"flex",justifyContent:"space-between",padding:"15px"}} >
@@ -281,7 +262,7 @@ export default function Home() {
 
                       </div>
 
-                    <img  src="/img2.png" style={{height:"380px",width:"300px",margin:"15px"}} /> 
+                      <Image src = {myImage} alt="wdawdawdaw" height={500} width={500} />
                     </div>
 
                   <div style={{width:"100%",display:"flex",justifyContent:"space-between",padding:"15px"}} >
@@ -312,7 +293,7 @@ export default function Home() {
 
                       </div>
 
-                    <img  src="/img2.png" style={{height:"380px",width:"300px",margin:"15px"}} /> 
+                      <Image src = {myImage} alt="wdawdawdaw" height={500} width={500} />
                     </div>
 
                   <div style={{width:"100%",display:"flex",justifyContent:"space-between",padding:"15px"}} >
@@ -342,7 +323,7 @@ export default function Home() {
 
                       </div>
 
-                    <img  src="/img2.png" style={{height:"380px",width:"300px",margin:"15px"}} /> 
+                      <Image src = {myImage} alt="wdawdawdaw" height={500} width={500} />
                     </div>
 
                   <div style={{width:"100%",display:"flex",justifyContent:"space-between",padding:"15px"}} >
@@ -383,7 +364,7 @@ export default function Home() {
 
                       </div>
 
-                    <img  src="/img2.png" style={{height:"380px",width:"500px",margin:"15px"}} /> 
+                      <Image src = {myImage} alt="wdawdawdaw" height={500} width={500} />
                     </div>
 
                   <div style={{width:"100%",display:"flex",justifyContent:"space-between",padding:"15px"}} >
@@ -413,7 +394,7 @@ export default function Home() {
 
                       </div>
 
-                    <img  src="/img2.png" style={{height:"380px",width:"500px",margin:"15px"}} /> 
+                      <Image src = {myImage} alt="wdawdawdaw" height={500} width={500} />
                     </div>
 
                   <div style={{width:"100%",display:"flex",justifyContent:"space-between",padding:"15px"}} >
@@ -448,7 +429,7 @@ export default function Home() {
 
                       </div>
 
-                    <img  src="/img2.png" style={{height:"380px",width:"500px",margin:"15px"}} /> 
+                      <Image src = {myImage} alt="wdawdawdaw" height={500} width={500} />
                     </div>
 
                   <div style={{width:"100%",display:"flex",justifyContent:"space-between",padding:"15px"}} >
@@ -551,7 +532,7 @@ export default function Home() {
 
                       
                         <Col lg ={6} sm={12} style={{height:"auto"}}> 
-                        <img  style={{width:"100%",height:"250px"}} src = "/img3.png"/>
+                        <Image src = {myImage} alt="wdawdawdaw" height={500} width={500} />
                         </Col>
 
                         
@@ -588,7 +569,7 @@ export default function Home() {
                                 <div style={{display:"flex",gap:"15px",justifyContent:"center",alignItems:"center"}} >
                                     
                                       
-                                <img src="/logo1.png" style={{objectFit:"contain",width:"100px",height:"100px"}} />
+                                <Image src = {myImage} alt="wdawdawdaw" height={500} width={500} />
                               
                               
 
